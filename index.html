@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<title> tuipala.com | El granero de Oriente.</title>
+	<meta charset="utf-8"/>
+	<!-- Permite mostrar descripcion el sitio en la busqueda con Google -->
+	<meta name="description" content=" Todo acerca del municipio de Ipala, departamento de Chiquimula-Guatemala, uno de los once municipios mas sobresalientes de Guatemala, por su gente exitosa." />
+	<!-- Asignando la visualizacion de 1 (original) si es 0.5 (50% del original)-->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<!-- Llamar al archivo de info de creadores del sitio -->
+	<link rel="author" type="text/plain" href="humans.txt"/>
+	<!-- Cargar css responsive web design-->
+	<link rel="stylesheet" href="css/style.css"/> 
+	<!--Archivo XML para buscadores-->
+	<link rel="sitemap" type="application/xml" title="sitemap" href="sitemap.xml" />
+	<!--cargar jquery de google-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"> </script> 
+	<!-- Todo lo de JavaScript en la parte inferior, excepto esta distribucion de Modernizr.
+     Modernizr habilita elementos HTML5 y detecta funciones para un rendimiento optimo.
+     Crea tu propio tu distribucion personalizada de Modernizr: www.modernizr.com/download/ -->
+    <script src="js/libs/modernizr-2.5.3.min.js"></script>
+	<!--Condicional que sino carga jQuery del sitio web de google, entonces cargarlo del sitio-->
+	<script>
+		!window.jQuery && document.write("<script src='js/jQuery.min.js'><\/script");
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5"> </script>
+	<![endif]-->
+
+
+</head>
+<body>
+	
+	<header>
+		<h1><a href="index.html"><img class="fade" alt="El granero de Oriente..." src="img/logo.png" width="50px" height="40px" /> 
+			</a>
+			<a id="nom-sitio"> tuipala.com</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html">Virtual</a></li>
+				<li><a href="index.html">Galer&iacute;a</a></li>
+				<li><a href="index.html">Acerca</a></li>
+				<li><a href="index.html">Contacto</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	<aside>
+			<!-- Twitter -->
+			<!-- Enlacar la libreria de Twitter-->
+			<section id="plugin-twitter">
+				<script src="http://platform.twitter.com/widgets.js"> </script>
+				<!-- Usando Clase de Twitter -->
+				<a href="http://twitter.com/share" class="twitter-share-button" data-text="#tuipala | El granero de oriente.." data-url="http://www.	tuipala.com" data-count="vertical" data-lang="es"> Twittear </a>
+			</section>
+			<section id="plugin-facebook">
+			<!-- Facebook -->
+				<div id="fb-root"></div>
+				<script src="http://connect.facebook.net/es_LA/all.js#xfbml=1">	</script>
+				<fb:like href="http://Facebook.com/ipaltecos" send="false" layout="box_count"> </fb:like>
+				</script>
+			</section>
+	</aside>
+	<section id="principal">
+		<section id="contenido">
+				<img src="img/divisor.png"/> 
+
+				<img src="img/divisor2.png"/>
+			<article id="entradas">
+
+			</article>
+		</section>
+	</section>
+	<footer>
+
+	</footer>
+	<script>
+    var _gaq=[['_setAccount','UA-31605153-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+	
+</body>
+</html>

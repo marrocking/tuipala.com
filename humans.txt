@@ -1,0 +1,17 @@
+/* tuipala.com / Sitio Web Acerca del Municipio de Ipala, Departamento de Chiquimula, Guatemala... */
+
+/* TEAM */
+	Creator: William Palma Marroquin
+	Contact: marrocking[at]gmail.com
+	Twitter: @marrocking
+	From: Chiquimula, Guatemala
+
+/* THANKS */
+	Emilio Marroquin
+
+/* SITE */
+	Last update: 2012/05/10
+	Language: Español
+	Standars: HTML5, CSS3
+	Components: jQuery
+	Software: SublimeText2
