@@ -78,6 +78,7 @@ header h1, nav {
 	width: 20%;
 }
 
+
 a#nom-sitio{
 	font-family: Helvetica, Verdana;
 	font-size: 1.2em;
@@ -117,12 +118,23 @@ header h1{
 	margin: 0 auto;
 	vertical-align: center;
 }
-
-/*section#contenido{
-	margin: 0 auto;
+section#principal{
+	background: src:"img/bground.jpg" repeat: no-repeat;
+}
+section#contenido{
+	/*border: 0.2em solid #FFF;*/
+	display: block;
 	text-align: center;
+	max-width: 800px;
+	width:50%;
+}
 
-} */
+article#divisor-abajo, article#divisor-arriba{
+	margin: 0 auto;
+	padding: 1em auto;
+	text-align: center;
+}
+
 .fade{
 	-ms-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;

@@ -5,7 +5,7 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--><!--<![endif]-->
 <head>
 	<title> tuipala.com | El granero de Oriente.</title>
 	<meta charset="utf-8"/>
@@ -30,6 +30,16 @@
 	<!--Condicional que sino carga jQuery del sitio web de google, entonces cargarlo del sitio-->
 	<script>
 		!window.jQuery && document.write("<script src='js/jQuery.min.js'><\/script");
+	</script>
+	<!-- FlexSlider pieces -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	<!-- Hook up the FlexSlider -->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
 	</script>
 
 	<!--[if lt IE 9]>
@@ -59,28 +69,49 @@
 	<aside>
 			<!-- Twitter -->
 			<!-- Enlacar la libreria de Twitter-->
-			<section id="plugin-twitter">
+<!--			<section id="plugin-twitter">
 				<script src="http://platform.twitter.com/widgets.js"> </script>
 				<!-- Usando Clase de Twitter -->
-				<a href="http://twitter.com/share" class="twitter-share-button" data-text="#tuipala | El granero de oriente.." data-url="http://www.	tuipala.com" data-count="vertical" data-lang="es"> Twittear </a>
+<!--				<a href="http://twitter.com/share" class="twitter-share-button" data-text="#tuipala | El granero de oriente.." data-url="http://www.	tuipala.com" data-count="vertical" data-lang="es"> Twittear </a>
 			</section>
 			<section id="plugin-facebook">
 			<!-- Facebook -->
-				<div id="fb-root"></div>
+<!--				<div id="fb-root"></div>
 				<script src="http://connect.facebook.net/es_LA/all.js#xfbml=1">	</script>
 				<fb:like href="http://Facebook.com/ipaltecos" send="false" layout="box_count"> </fb:like>
 				</script>
-			</section>
+			</section> -->
 	</aside>
 	<section id="principal">
 		<section id="contenido">
-				<img src="img/divisor.png"/> 
-
-				<img src="img/divisor2.png"/>
-			<article id="entradas">
-
-			</article>
-		</section>
+		<!--=============================
+			Markup for FADE animation
+			=================================-->
+			<div class="flexslider">
+			    <ul class="slides">
+			    	<li>
+			    		<img src="img/inacup_samoa.jpg" />
+			    		<p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+			    	</li>
+			    	<li>
+			    		<a href="#"><img src="img/inacup_pumpkin.jpg" /></a>
+			    		<p class="flex-caption">This image is wrapped in a link!</p>
+			    	</li>
+			    	<li>
+			    		<img src="img/inacup_donut.jpg" />
+			    	</li>
+			    	<li>
+			    		<img src="img/inacup_vanilla.jpg" />
+			    	</li>
+			    </ul>
+			</div>
+		</section> <!--Fin de section #Contenido -->
+		<article id="divisor-arriba">
+				<img src="img/divisor-arriba.png"/>				
+		</article>
+		<article id="divisor-abajo">
+				<img src="img/divisor-abajo.png"/>				
+		</article>
 	</section>
 	<footer>
 
