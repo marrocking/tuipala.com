@@ -62,7 +62,7 @@ img, video{
 	max-width: 100%;
 }
 
-header, aside, section#contenido, footer{
+header, aside, section#carrusel, section#categoria, footer{
 	margin: 0 auto;
 	text-align: center;
 }
@@ -121,7 +121,7 @@ header h1{
 section#principal{
 	background: src:"img/bground.jpg" repeat: no-repeat;
 }
-section#contenido{
+section#carrusel{
 	/*border: 0.2em solid #FFF;*/
 	display: block;
 	text-align: center;
@@ -129,7 +129,11 @@ section#contenido{
 	width:50%;
 }
 
-article#divisor-abajo, article#divisor-arriba{
+section#categoria{
+
+}
+
+article.divisor-abajo, article.divisor-arriba{
 	margin: 0 auto;
 	padding: 1em auto;
 	text-align: center;
